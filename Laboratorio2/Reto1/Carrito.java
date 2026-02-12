@@ -7,6 +7,8 @@ public class Carrito {
 
     public void agregarProducto(Producto producto, int cantidad) {
         items.add(new ItemCarrito(producto, cantidad));
+        System.out.println(producto.getNombre() + " "
+                + cantidad + " unidades agregado al carrito.");
     }
 
     public double calcularSubtotal() {

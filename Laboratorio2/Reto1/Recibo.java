@@ -6,12 +6,13 @@ public class Recibo {
         double descuento = cliente.calcularDescuento(subtotal);
         double total = subtotal - descuento;
 
-        System.out.println("--- RECIBO DE COMPRA ---");
+        System.out.println("\n--- RECIBO DE COMPRA ---");
         System.out.println("Cliente: " + cliente.getTipo());
         System.out.println("Productos:");
 
         carrito.getItems().forEach(item -> {
-            System.out.println("- " + item.getProducto().getNombre()
+            System.out.println("- "
+                    + item.getProducto().getNombre()
                     + " - $" + item.getTotal());
         });
 
