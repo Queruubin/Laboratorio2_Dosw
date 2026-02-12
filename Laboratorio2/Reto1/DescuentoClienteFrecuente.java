@@ -1,4 +1,4 @@
-public public class DescuentoClienteFrecuente implements DescuentoStrategy {
+public class DescuentoClienteFrecuente implements DescuentoStrategy {
 
     private static final double DESCUENTO = 0.10;
 
@@ -6,7 +6,4 @@ public public class DescuentoClienteFrecuente implements DescuentoStrategy {
     public double aplicarDescuento(double subtotal) {
         return subtotal * DESCUENTO;
     }
-}
- DescuentoClienteFrecuente {
-    
 }
