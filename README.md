@@ -14,9 +14,10 @@ Elegimos el patrón Strategy porque la lógica de negocio de Don Pepe requiere a
 ### ¿De qué trata el proyecto?
 
 Este proyecto consiste en el desarrollo de un Sistema de Gestión de Ventas Inteligente diseñado específicamente para resolver un problema de descontrol financiero en un negocio minorista.
+
 ---
 
 Este diseño permite una construcción modular y flexible, y hace que la personalización sea sencilla y amigable para el usuario.
 
 
-![alt text](image.png)
+![alt text](Laboratorio2/image.png)
